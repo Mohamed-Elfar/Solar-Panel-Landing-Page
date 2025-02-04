@@ -3,12 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Solar Panel</title>
+    <meta
+      name="description"
+      content="Solar Panel Installer in Plymouth - Affordable and sustainable solar solutions."
+    />
+    <meta name="author" content="Solidarity Solar" />
+    <link rel="canonical" href="https://example.com/solar-panel-installer" />
+    <title>Solar Panel Installer in Plymouth | Solidarity Solar</title>
     <link rel="stylesheet" href="CSS/all.min.css" />
     <link rel="stylesheet" href="CSS/main.min.css" />
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbar" role="navigation">
       <picture class="navbar__logo">
         <img
           src="./images/image 9.png"
@@ -27,7 +33,7 @@
         <span>+1 2345 3456 45</span>
       </div>
     </nav>
-    <main>
+    <main role="main">
       <section class="hero">
         <div class="hero__content container">
           <p class="hero__progress">
@@ -44,8 +50,12 @@
             </p>
           </div>
           <div class="hero__buttons">
-            <button class="btn btn--primary">Call Us Today</button>
-            <button class="btn">Request a Call Back</button>
+            <button class="btn btn--primary" aria-label="Call Us Today">
+              Call Us Today
+            </button>
+            <button class="btn" aria-label="Request a Call Back">
+              Request a Call Back
+            </button>
           </div>
         </div>
       </section>
@@ -186,7 +196,9 @@
       </section>
       <section class="energy">
         <div class="energy__text">
-          <div class="energy__icon"><i class="fa-solid fa-bolt"></i></div>
+          <div class="energy__icon">
+            <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+          </div>
           <div class="energy__header">
             <h1 class="fs-30">Enrgy innovators - the products we love</h1>
           </div>
@@ -304,7 +316,10 @@
             <div class="card">
               <div class="card__body">
                 <div class="card__icon">
-                  <i class="fa-solid fa-hand-holding-medical"></i>
+                  <i
+                    class="fa-solid fa-hand-holding-medical"
+                    aria-hidden="true"
+                  ></i>
                 </div>
                 <div class="card__header">
                   <h3>customer care</h3>
@@ -320,7 +335,9 @@
             </div>
             <div class="card">
               <div class="card__body">
-                <div class="card__icon"><i class="fa-solid fa-tag"></i></div>
+                <div class="card__icon">
+                  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+                </div>
                 <div class="card__header">
                   <h3>price</h3>
                 </div>
@@ -336,7 +353,7 @@
             <div class="card">
               <div class="card__body">
                 <div class="card__icon">
-                  <i class="fa-solid fa-earth-europe"></i>
+                  <i class="fa-solid fa-earth-europe" aria-hidden="true"></i>
                 </div>
                 <div class="card__header">
                   <h3>sustainability</h3>
@@ -398,7 +415,11 @@
           <div class="footer__body">
             <div class="footer__search">
               <p>get the freshest news from us</p>
-              <input type="search" placeholder="Your email addres..." />
+              <input
+                type="search"
+                placeholder="Your email addres..."
+                aria-describedby="email-help"
+              />
               <button class="btn">subscribe</button>
             </div>
             <div class="footer__linkes">
