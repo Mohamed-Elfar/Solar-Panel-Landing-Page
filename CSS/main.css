@@ -138,15 +138,11 @@ progress::-moz-progress-bar {
 }
 
 .goal__image::before {
-  content: "The Piece That Sold Me On This Polarizing Trend";
-  font-size: 25px;
-  width: 280px;
-  height: 200px;
-  background-color: var(--secondary-color);
+  content: url("../images/before.png");
   position: absolute;
-  bottom: 55px;
+  height: 200px;
+  bottom: 70px;
   left: -50px;
-  border-radius: 10px;
 }
 
 .goal__text p {
@@ -375,8 +371,9 @@ footer {
 }
 .footer__search .btn {
   position: relative;
-  top: -48px;
+  top: -53px;
   left: 198px;
+  height: 45px;
 
   color: var(--white);
 }
@@ -451,8 +448,8 @@ footer {
     order: initial;
   }
   .goal__image::before {
-    bottom: 0px;
-    left: 0;
+    bottom: 50px;
+    left: -10px;
   }
   .footer__item {
     padding: 10px 3px;
@@ -460,6 +457,7 @@ footer {
   .footer__search .btn {
     left: 65%;
   }
+
   .footer__rights,
   .testimonial__header,
   .testimonial__caption,
