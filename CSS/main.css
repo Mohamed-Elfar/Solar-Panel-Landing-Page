@@ -134,7 +134,7 @@ progress::-moz-progress-bar {
 
 .goal__image {
   position: relative;
-  max-width: 40%;
+  width: 40%;
 }
 
 .goal__image::before {
