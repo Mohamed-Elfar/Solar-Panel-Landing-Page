@@ -81,7 +81,6 @@ img {
 
 .hero {
   background-image: url("../images/headerImage.png");
-  height: 100vh;
   background-position: center;
   background-size: cover;
   color: var(--white);
