@@ -80,7 +80,7 @@ img {
 }
 
 .hero {
-  background-image: url("../images/headerImage.png");
+  background-image: url("../images/solar-panels-meadow\ 1.png");
   background-position: center;
   background-size: cover;
   color: var(--white);
@@ -158,7 +158,7 @@ progress::-moz-progress-bar {
 }
 
 .contact {
-  background-image: url("../images/sectionImage.png");
+  background-image: url("../images/8116\ 1.png");
   background-position: center;
   background-size: cover;
   height: 500px;
