@@ -417,7 +417,8 @@ footer {
   .energy,
   .footer__body,
   .footer__rights,
-  .testimonial {
+  .testimonial,
+  .testimonial__details {
     flex-direction: column;
     padding: 15px 0;
     gap: 15px;
@@ -457,7 +458,7 @@ footer {
     padding: 10px 3px;
   }
   .footer__search .btn {
-    left: 75%;
+    left: 65%;
   }
   .footer__rights,
   .testimonial__header,
