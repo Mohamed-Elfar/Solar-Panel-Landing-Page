@@ -135,7 +135,7 @@ progress::-moz-progress-bar {
 
 .goal__image {
   position: relative;
-  width: 50%;
+  width: 40%;
 }
 
 .goal__image::before {
@@ -334,7 +334,6 @@ progress::-moz-progress-bar {
 .testimonial__data {
   padding-left: 5px;
   width: 80%;
-  
 }
 .footer__image {
   width: 40%;
@@ -382,22 +381,22 @@ footer {
 
   color: var(--white);
 }
-.footer__rights{
-    display: flex;
-    justify-content: space-between;
+.footer__rights {
+  display: flex;
+  justify-content: space-between;
 }
 @media (max-width: 768px) {
-    .navbar{
-        justify-content: center;
-        flex-wrap: wrap-reverse;
-
-    }
-    .nav__item{
-        padding-left: 2px;
-    }
-    .navbar__logo,.navbar__call-us p{
-        display: none;
-    }
+  .navbar {
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+  .nav__item {
+    padding-left: 2px;
+  }
+  .navbar__logo,
+  .navbar__call-us p {
+    display: none;
+  }
 
   .hero,
   .contact {
@@ -417,27 +416,34 @@ footer {
   .goal,
   .card-list,
   .energy,
-  .footer__body,.footer__rights,.testimonial  {
+  .footer__body,
+  .footer__rights,
+  .testimonial {
     flex-direction: column;
     padding: 15px 0;
     gap: 15px;
   }
-  
+
   .card,
   .goal__image,
   .goal__text,
   .energy .energy__text,
   .energy .card-list,
   .values .card,
-  .repairs__blurred-box,.testimonial__text,.testimonial__slider {
+  .repairs__blurred-box,
+  .testimonial__text,
+  .testimonial__slider {
     width: 100%;
     padding-left: 0;
   }
-  .energy__card ,.testimonial__image{
+  .energy__card,
+  .testimonial__image {
     width: 80%;
     margin: auto;
   }
-  .goal__text ,.testimonial__arrows,.testimonial__title{
+  .goal__text,
+  .testimonial__arrows,
+  .testimonial__title {
     width: 100%;
     padding-left: 15px;
   }
@@ -448,18 +454,21 @@ footer {
     bottom: 0px;
     left: 0;
   }
-  .footer__item{
-    padding: 10px 3px
-    ;
+  .footer__item {
+    padding: 10px 3px;
   }
   .footer__search .btn {
     left: 75%;
-  
-  }  .footer__rights,.testimonial__header,.testimonial__caption,.testimonial__feedback,.testimonial__data{
+  }
+  .footer__rights,
+  .testimonial__header,
+  .testimonial__caption,
+  .testimonial__feedback,
+  .testimonial__data {
     text-align: center;
     margin: auto;
   }
-  .testimonial__details{
+  .testimonial__details {
     flex-wrap: wrap;
-}
+  }
 }
